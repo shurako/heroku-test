@@ -57,6 +57,7 @@ function NoteDetails(props) {
     useEffect(() => {
         if (props.note.comments === undefined) { props.setNote({ ...props.note, comments: [] }) }
         
+        
         console.log(props.note)
 
 
